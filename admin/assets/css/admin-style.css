@@ -1,0 +1,609 @@
+/**
+ * استایل‌های پنل ادمین افزونه Multi-Database Manager
+ * 
+ * @package Multi_Database_Manager
+ * @version 1.0.0
+ */
+
+/* ==================== تنظیمات کلی ==================== */
+
+.multi-db-admin {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+.multi-db-admin .wp-heading-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.multi-db-admin .wp-heading-inline .dashicons {
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    color: #2271b1;
+}
+
+/* ==================== کارت‌ها ==================== */
+
+.multi-db-admin .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.multi-db-admin .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.multi-db-admin .card-header {
+    border-radius: 8px 8px 0 0;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.multi-db-admin .card-header h5 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.multi-db-admin .card-header .dashicons {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.multi-db-admin .card-body {
+    padding: 20px;
+}
+
+/* کارت‌های آماری */
+.multi-db-admin .card.border-primary {
+    border-color: #2271b1 !important;
+    border-width: 2px;
+}
+
+.multi-db-admin .card.border-success {
+    border-color: #28a745 !important;
+    border-width: 2px;
+}
+
+.multi-db-admin .card.border-info {
+    border-color: #17a2b8 !important;
+    border-width: 2px;
+}
+
+.multi-db-admin .card.border-warning {
+    border-color: #ffc107 !important;
+    border-width: 2px;
+}
+
+/* ==================== دکمه‌ها ==================== */
+
+.multi-db-admin .btn {
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.multi-db-admin .btn .dashicons {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+}
+
+.multi-db-admin .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.multi-db-admin .btn:active {
+    transform: translateY(0);
+}
+
+.multi-db-admin .btn-lg {
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.multi-db-admin .btn-lg .dashicons {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.multi-db-admin .btn-sm {
+    padding: 4px 8px;
+    font-size: 13px;
+}
+
+.multi-db-admin .btn-sm .dashicons {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+
+/* ==================== جداول ==================== */
+
+.multi-db-admin .table {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.multi-db-admin .table thead {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.multi-db-admin .table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.multi-db-admin .table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.multi-db-admin .table code {
+    background-color: #f1f3f5;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #e83e8c;
+}
+
+/* ==================== Badge ها ==================== */
+
+.multi-db-admin .badge {
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* ==================== Alert ها ==================== */
+
+.multi-db-admin .alert {
+    border-radius: 6px;
+    padding: 15px;
+    border-left: 4px solid;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.multi-db-admin .alert .dashicons {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.multi-db-admin .alert-info {
+    background-color: #e7f3ff;
+    border-left-color: #0066cc;
+    color: #004085;
+}
+
+.multi-db-admin .alert-success {
+    background-color: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+}
+
+.multi-db-admin .alert-warning {
+    background-color: #fff3cd;
+    border-left-color: #ffc107;
+    color: #856404;
+}
+
+.multi-db-admin .alert-danger {
+    background-color: #f8d7da;
+    border-left-color: #dc3545;
+    color: #721c24;
+}
+
+/* ==================== فرم‌ها ==================== */
+
+.multi-db-admin .form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1d2327;
+    display: block;
+}
+
+.multi-db-admin .form-label .text-danger {
+    color: #dc3545;
+    margin-right: 3px;
+}
+
+.multi-db-admin .form-control,
+.multi-db-admin .form-select {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 14px;
+    transition: all 0.2s ease;
+}
+
+.multi-db-admin .form-control:focus,
+.multi-db-admin .form-select:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.1);
+    outline: none;
+}
+
+.multi-db-admin .form-text {
+    color: #6c757d;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
+
+.multi-db-admin .form-check {
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.multi-db-admin .form-check:hover {
+    background-color: #f8f9fa;
+}
+
+.multi-db-admin .form-check-input {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.multi-db-admin .form-check-label {
+    cursor: pointer;
+}
+
+/* ==================== Progress Bar ==================== */
+
+.multi-db-admin .progress {
+    height: 30px;
+    border-radius: 15px;
+    background-color: #e9ecef;
+    overflow: hidden;
+}
+
+.multi-db-admin .progress-bar {
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.6s ease;
+}
+
+.multi-db-admin .progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+    0% {
+        background-position: 1rem 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* ==================== List Group ==================== */
+
+.multi-db-admin .list-group-item {
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    padding: 15px;
+    transition: background-color 0.2s ease;
+}
+
+.multi-db-admin .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.multi-db-admin .list-group-item:last-child {
+    border-bottom: none;
+}
+
+/* ==================== Input Group ==================== */
+
+.multi-db-admin .input-group .btn {
+    border: 1px solid #ddd;
+}
+
+.multi-db-admin .input-group .form-control:focus + .btn {
+    border-color: #2271b1;
+}
+
+/* ==================== انیمیشن‌ها ==================== */
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.multi-db-admin .dashicons-update-alt {
+    animation: rotation 1s infinite linear;
+}
+
+.multi-db-admin .fade-in {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==================== Scrollbar سفارشی ==================== */
+
+.multi-db-admin .table-container::-webkit-scrollbar,
+.multi-db-admin .post-types-list::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.multi-db-admin .table-container::-webkit-scrollbar-track,
+.multi-db-admin .post-types-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.multi-db-admin .table-container::-webkit-scrollbar-thumb,
+.multi-db-admin .post-types-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.multi-db-admin .table-container::-webkit-scrollbar-thumb:hover,
+.multi-db-admin .post-types-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* ==================== Responsive ==================== */
+
+@media (max-width: 768px) {
+    .multi-db-admin .card {
+        margin-bottom: 15px;
+    }
+    
+    .multi-db-admin .card-body {
+        padding: 15px;
+    }
+    
+    .multi-db-admin .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .multi-db-admin .btn-group .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .multi-db-admin .table-responsive {
+        border-radius: 6px;
+    }
+}
+
+/* ==================== پیام‌های وردپرس ==================== */
+
+.multi-db-admin .notice {
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin: 15px 0;
+    border-right: 4px solid;
+}
+
+.multi-db-admin .notice-success {
+    background-color: #d4edda;
+    border-right-color: #28a745;
+    color: #155724;
+}
+
+.multi-db-admin .notice-error {
+    background-color: #f8d7da;
+    border-right-color: #dc3545;
+    color: #721c24;
+}
+
+.multi-db-admin .notice-warning {
+    background-color: #fff3cd;
+    border-right-color: #ffc107;
+    color: #856404;
+}
+
+.multi-db-admin .notice-info {
+    background-color: #e7f3ff;
+    border-right-color: #0066cc;
+    color: #004085;
+}
+
+/* ==================== تنظیمات خاص ==================== */
+
+/* کارت هدر ووکامرس */
+.multi-db-admin .card.bg-success .dashicons {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* لیست پست تایپ‌ها */
+.multi-db-admin .post-types-list {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.multi-db-admin .post-types-list .form-check {
+    margin-bottom: 0;
+}
+
+/* نمایش وضعیت */
+.multi-db-admin .status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.multi-db-admin .status-indicator.healthy {
+    background-color: #28a745;
+    box-shadow: 0 0 6px #28a745;
+}
+
+.multi-db-admin .status-indicator.warning {
+    background-color: #ffc107;
+    box-shadow: 0 0 6px #ffc107;
+}
+
+.multi-db-admin .status-indicator.error {
+    background-color: #dc3545;
+    box-shadow: 0 0 6px #dc3545;
+}
+
+/* ==================== نوار بالا ==================== */
+
+.multi-db-admin .wp-header-end {
+    margin-bottom: 20px;
+}
+
+/* ==================== Utility Classes ==================== */
+
+.multi-db-admin .text-center {
+    text-align: center !important;
+}
+
+.multi-db-admin .text-end {
+    text-align: left !important;
+}
+
+.multi-db-admin .text-start {
+    text-align: right !important;
+}
+
+.multi-db-admin .d-flex {
+    display: flex !important;
+}
+
+.multi-db-admin .align-items-center {
+    align-items: center !important;
+}
+
+.multi-db-admin .justify-content-between {
+    justify-content: space-between !important;
+}
+
+.multi-db-admin .gap-2 {
+    gap: 0.5rem !important;
+}
+
+.multi-db-admin .gap-3 {
+    gap: 1rem !important;
+}
+
+.multi-db-admin .mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.multi-db-admin .mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.multi-db-admin .mt-3 {
+    margin-top: 1rem !important;
+}
+
+.multi-db-admin .mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.multi-db-admin .mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.multi-db-admin .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.multi-db-admin .w-100 {
+    width: 100% !important;
+}
+
+/* ==================== Dark Mode Support (اختیاری) ==================== */
+
+@media (prefers-color-scheme: dark) {
+    .multi-db-admin .card {
+        background-color: #1e1e1e;
+        border-color: #3a3a3a;
+        color: #e0e0e0;
+    }
+    
+    .multi-db-admin .card-header {
+        border-bottom-color: #3a3a3a;
+    }
+    
+    .multi-db-admin .form-control,
+    .multi-db-admin .form-select {
+        background-color: #2a2a2a;
+        border-color: #3a3a3a;
+        color: #e0e0e0;
+    }
+    
+    .multi-db-admin .table {
+        color: #e0e0e0;
+    }
+    
+    .multi-db-admin .table thead {
+        background-color: #2a2a2a;
+    }
+    
+    .multi-db-admin .table tbody tr:hover {
+        background-color: #2a2a2a;
+    }
+}
+
+/* ==================== Print Styles ==================== */
+
+@media print {
+    .multi-db-admin .btn,
+    .multi-db-admin .form-control,
+    .multi-db-admin .form-select {
+        display: none;
+    }
+    
+    .multi-db-admin .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}

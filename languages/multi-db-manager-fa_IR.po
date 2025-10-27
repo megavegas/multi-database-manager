@@ -1,0 +1,549 @@
+# Translation file for Multi-Database Manager
+# Copyright (C) 2025
+# This file is distributed under the same license as the Multi-Database Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Database Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2025-10-27 12:00+0000\n"
+"PO-Revision-Date: 2025-10-27 12:00+0330\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.0\n"
+
+# ==================== عمومی ====================
+
+msgid "Multi-Database Manager"
+msgstr "مدیریت چند دیتابیس"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Cancel"
+msgstr "انصراف"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Update"
+msgstr "بروزرسانی"
+
+msgid "Active"
+msgstr "فعال"
+
+msgid "Inactive"
+msgstr "غیرفعال"
+
+msgid "Yes"
+msgstr "بله"
+
+msgid "No"
+msgstr "خیر"
+
+# ==================== منوها ====================
+
+msgid "Multi Database"
+msgstr "چند دیتابیس"
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Database Settings"
+msgstr "تنظیمات دیتابیس"
+
+msgid "Migration Tools"
+msgstr "ابزار انتقال"
+
+msgid "WooCommerce Settings"
+msgstr "تنظیمات ووکامرس"
+
+# ==================== داشبورد ====================
+
+msgid "Total Databases"
+msgstr "کل دیتابیس‌ها"
+
+msgid "Active Databases"
+msgstr "دیتابیس فعال"
+
+msgid "Total Posts"
+msgstr "کل پست‌ها"
+
+msgid "Total Size"
+msgstr "حجم کل"
+
+msgid "Active Databases Overview"
+msgstr "دیتابیس‌های فعال"
+
+msgid "No active database found. Add a new database to get started."
+msgstr "هیچ دیتابیس فعالی وجود ندارد. برای شروع یک دیتابیس جدید اضافه کنید."
+
+msgid "Add Database"
+msgstr "افزودن دیتابیس"
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Database"
+msgstr "دیتابیس"
+
+msgid "Post Types"
+msgstr "پست تایپ‌ها"
+
+msgid "Size"
+msgstr "حجم"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Actions"
+msgstr "عملیات"
+
+msgid "None"
+msgstr "ندارد"
+
+msgid "Refresh"
+msgstr "به‌روزرسانی"
+
+msgid "WooCommerce Statistics"
+msgstr "آمار ووکامرس"
+
+msgid "Products"
+msgstr "محصولات"
+
+msgid "Orders"
+msgstr "سفارشات"
+
+msgid "Customers"
+msgstr "مشتریان"
+
+msgid "Coupons"
+msgstr "کوپن‌ها"
+
+msgid "WooCommerce has not been separated yet."
+msgstr "ووکامرس هنوز جداسازی نشده است."
+
+msgid "Separate WooCommerce"
+msgstr "جداسازی ووکامرس"
+
+msgid "Latest Events"
+msgstr "آخرین رویدادها"
+
+msgid "No events logged yet"
+msgstr "رویدادی ثبت نشده است"
+
+msgid "Quick Actions"
+msgstr "عملیات سریع"
+
+msgid "Add New Database"
+msgstr "افزودن دیتابیس جدید"
+
+msgid "Migrate Data"
+msgstr "انتقال داده‌ها"
+
+msgid "Refresh All"
+msgstr "به‌روزرسانی همه"
+
+# ==================== تنظیمات دیتابیس ====================
+
+msgid "Add New Database"
+msgstr "افزودن دیتابیس جدید"
+
+msgid "Edit Database"
+msgstr "ویرایش دیتابیس"
+
+msgid "Identifier Name"
+msgstr "نام شناسایی"
+
+msgid "Unique name to identify the database (only lowercase letters, numbers and dashes)"
+msgstr "نام یکتا برای شناسایی دیتابیس (فقط حروف انگلیسی کوچک، اعداد و خط تیره)"
+
+msgid "Connection Information"
+msgstr "اطلاعات اتصال"
+
+msgid "Host"
+msgstr "میزبان"
+
+msgid "Port"
+msgstr "پورت"
+
+msgid "Database Name"
+msgstr "نام دیتابیس"
+
+msgid "Username"
+msgstr "نام کاربری"
+
+msgid "Password"
+msgstr "رمز عبور"
+
+msgid "To change password, enter new password. Otherwise leave empty."
+msgstr "برای تغییر رمز، رمز جدید را وارد کنید. در غیر این صورت خالی بگذارید."
+
+msgid "Charset"
+msgstr "مجموعه کاراکتر"
+
+msgid "Collation"
+msgstr "تطبیق"
+
+msgid "Select Post Types"
+msgstr "انتخاب پست تایپ‌ها"
+
+msgid "Post types to be stored in this database"
+msgstr "پست تایپ‌هایی که در این دیتابیس ذخیره شوند"
+
+msgid "Enable this database"
+msgstr "فعال سازی این دیتابیس"
+
+msgid "If disabled, this database will not be used"
+msgstr "اگر فعال نباشد، از این دیتابیس استفاده نخواهد شد"
+
+msgid "Test Connection"
+msgstr "تست اتصال"
+
+msgid "Testing connection..."
+msgstr "در حال تست اتصال..."
+
+msgid "Connection successful"
+msgstr "اتصال با موفقیت برقرار شد"
+
+msgid "Connection failed: %s"
+msgstr "اتصال ناموفق: %s"
+
+msgid "Settings saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+msgid "Error saving settings"
+msgstr "خطا در ذخیره تنظیمات"
+
+msgid "Settings deleted"
+msgstr "تنظیمات حذف شد"
+
+msgid "Error deleting settings"
+msgstr "خطا در حذف تنظیمات"
+
+msgid "Database activated"
+msgstr "دیتابیس فعال شد"
+
+msgid "Database deactivated"
+msgstr "دیتابیس غیرفعال شد"
+
+msgid "Existing Databases"
+msgstr "دیتابیس‌های موجود"
+
+msgid "No database configured. Add your first database using the form on the left."
+msgstr "هیچ دیتابیسی تعریف نشده است. از فرم سمت چپ اولین دیتابیس را اضافه کنید."
+
+msgid "Activate"
+msgstr "فعال کردن"
+
+msgid "Deactivate"
+msgstr "غیرفعال کردن"
+
+msgid "Are you sure you want to delete this database?"
+msgstr "آیا از حذف این دیتابیس اطمینان دارید؟"
+
+# ==================== ابزار انتقال ====================
+
+msgid "Data Migration"
+msgstr "انتقال داده‌ها"
+
+msgid "No active database available for migration. Please add a database first."
+msgstr "هیچ دیتابیس فعالی برای انتقال وجود ندارد. ابتدا یک دیتابیس اضافه کنید."
+
+msgid "Select Post Type"
+msgstr "انتخاب پست تایپ"
+
+msgid "-- Select --"
+msgstr "-- انتخاب کنید --"
+
+msgid "Target Database"
+msgstr "دیتابیس مقصد"
+
+msgid "Migration Settings"
+msgstr "تنظیمات انتقال"
+
+msgid "Backup before migration"
+msgstr "پشتیبان‌گیری قبل از انتقال"
+
+msgid "Recommended to always keep enabled"
+msgstr "توصیه می‌شود همیشه فعال باشد"
+
+msgid "Dry Run (Test Mode)"
+msgstr "حالت تست (Dry Run)"
+
+msgid "Simulation only, no actual migration"
+msgstr "فقط شبیه‌سازی، بدون انتقال واقعی"
+
+msgid "Delete from source database"
+msgstr "حذف از دیتابیس مبدا"
+
+msgid "Warning: Data will be deleted from the original database"
+msgstr "هشدار: داده‌ها از دیتابیس اصلی حذف می‌شوند"
+
+msgid "Estimate Time & Size"
+msgstr "تخمین زمان و حجم"
+
+msgid "Start Migration"
+msgstr "شروع انتقال"
+
+msgid "Migration Progress"
+msgstr "پیشرفت انتقال"
+
+msgid "Migrating..."
+msgstr "در حال انتقال..."
+
+msgid "Completed"
+msgstr "انجام شده"
+
+msgid "Total"
+msgstr "کل"
+
+msgid "Remaining"
+msgstr "باقیمانده"
+
+msgid "Migration successful"
+msgstr "انتقال با موفقیت انجام شد"
+
+msgid "Migration failed"
+msgstr "خطا در انتقال"
+
+msgid "New Migration"
+msgstr "انتقال جدید"
+
+msgid "Backup Files"
+msgstr "فایل‌های پشتیبان"
+
+msgid "No backup files available"
+msgstr "هیچ فایل پشتیبانی موجود نیست"
+
+msgid "Download"
+msgstr "دانلود"
+
+msgid "Migration Guide"
+msgstr "راهنمای انتقال"
+
+msgid "Migration Steps:"
+msgstr "مراحل انتقال:"
+
+msgid "Select the desired post type"
+msgstr "پست تایپ مورد نظر را انتخاب کنید"
+
+msgid "Specify the target database"
+msgstr "دیتابیس مقصد را مشخص کنید"
+
+msgid "Keep backup option enabled"
+msgstr "گزینه پشتیبان‌گیری را فعال نگه دارید"
+
+msgid "First test with 'Dry Run'"
+msgstr "ابتدا با 'حالت تست' بررسی کنید"
+
+msgid "Finally start the actual migration"
+msgstr "در نهایت انتقال واقعی را شروع کنید"
+
+msgid "Important Notes:"
+msgstr "نکات مهم:"
+
+msgid "Always take a complete backup before migration"
+msgstr "قبل از انتقال حتماً از سایت backup کامل بگیرید"
+
+msgid "Migration may take time depending on data size"
+msgstr "انتقال بسته به حجم ممکن است زمان‌بر باشد"
+
+msgid "Do not close the page during migration"
+msgstr "در حین انتقال صفحه را نبندید"
+
+msgid "Only enable 'Delete from source' after verification"
+msgstr "گزینه 'حذف از مبدا' را فقط بعد از اطمینان فعال کنید"
+
+msgid "Are you sure you want to start the migration?"
+msgstr "آیا از انتقال داده‌ها اطمینان دارید؟"
+
+# ==================== تنظیمات ووکامرس ====================
+
+msgid "WooCommerce Separation"
+msgstr "جداسازی ووکامرس"
+
+msgid "Move all products, orders and WooCommerce data to a separate database"
+msgstr "تمام محصولات، سفارشات و داده‌های ووکامرس را به یک دیتابیس مجزا منتقل کنید"
+
+msgid "Separated"
+msgstr "جداسازی شده"
+
+msgid "Not Separated"
+msgstr "جداسازی نشده"
+
+msgid "WooCommerce is not active!"
+msgstr "ووکامرس فعال نیست!"
+
+msgid "Automatic Separation"
+msgstr "جداسازی خودکار"
+
+msgid "This feature will automatically:"
+msgstr "این ویژگی به صورت خودکار:"
+
+msgid "Create a new database for WooCommerce"
+msgstr "یک دیتابیس جدید برای ووکامرس ایجاد می‌کند"
+
+msgid "Copy all WooCommerce tables"
+msgstr "تمام جداول ووکامرس را کپی می‌کند"
+
+msgid "Configure WooCommerce post types"
+msgstr "پست تایپ‌های ووکامرس را تنظیم می‌کند"
+
+msgid "Prepare for data migration"
+msgstr "آماده برای انتقال داده‌ها می‌شود"
+
+msgid "New Database Information:"
+msgstr "اطلاعات دیتابیس جدید:"
+
+msgid "Name of new database to be created"
+msgstr "نام دیتابیس جدید که ایجاد خواهد شد"
+
+msgid "Auto-Separate WooCommerce"
+msgstr "جداسازی خودکار ووکامرس"
+
+msgid "Size & Time Estimate"
+msgstr "تخمین حجم و زمان"
+
+msgid "Total Size"
+msgstr "حجم کل"
+
+msgid "Number of Tables"
+msgstr "تعداد جداول"
+
+msgid "WooCommerce Tables:"
+msgstr "جداول ووکامرس:"
+
+msgid "Table"
+msgstr "جدول"
+
+msgid "Records"
+msgstr "رکورد"
+
+msgid "Estimated time: 5-15 minutes depending on data volume"
+msgstr "زمان تقریبی: 5-15 دقیقه بسته به حجم داده‌ها"
+
+msgid "WooCommerce Post Types"
+msgstr "پست تایپ‌های ووکامرس"
+
+msgid "Statistics"
+msgstr "آمار"
+
+msgid "Health Status"
+msgstr "وضعیت سلامت"
+
+msgid "Overall Status:"
+msgstr "وضعیت کلی:"
+
+msgid "Healthy"
+msgstr "سالم"
+
+msgid "Warning"
+msgstr "هشدار"
+
+msgid "Error"
+msgstr "خطا"
+
+msgid "Missing Tables:"
+msgstr "جداول ناقص:"
+
+msgid "Warnings:"
+msgstr "هشدارها:"
+
+msgid "Everything looks great!"
+msgstr "همه چیز عالی است!"
+
+msgid "Database Information"
+msgstr "اطلاعات دیتابیس"
+
+msgid "Edit Settings"
+msgstr "ویرایش تنظیمات"
+
+msgid "Operations"
+msgstr "عملیات"
+
+msgid "Migrate WooCommerce Data"
+msgstr "انتقال داده‌های ووکامرس"
+
+msgid "Update Statistics"
+msgstr "به‌روزرسانی آمار"
+
+msgid "Test Functionality"
+msgstr "تست عملکرد"
+
+# ==================== پیام‌های خطا ====================
+
+msgid "Field %s is required"
+msgstr "فیلد %s الزامی است"
+
+msgid "Invalid host address"
+msgstr "آدرس host نامعتبر است"
+
+msgid "Invalid port number"
+msgstr "شماره پورت نامعتبر است"
+
+msgid "Database config not found"
+msgstr "تنظیمات دیتابیس یافت نشد"
+
+msgid "Connection failed to target database"
+msgstr "اتصال به دیتابیس هدف ناموفق"
+
+msgid "Table not found in source database"
+msgstr "جدول در دیتابیس مبدا یافت نشد"
+
+msgid "Error creating table"
+msgstr "خطا در ایجاد جدول"
+
+msgid "Backup file not found"
+msgstr "فایل پشتیبان یافت نشد"
+
+msgid "Error reading backup file"
+msgstr "خطا در خواندن فایل پشتیبان"
+
+msgid "Unauthorized access"
+msgstr "دسترسی غیرمجاز"
+
+msgid "Error communicating with server"
+msgstr "خطا در برقراری ارتباط با سرور"
+
+# ==================== موارد دیگر ====================
+
+msgid "Identifier name can only contain lowercase letters, numbers, dashes and underscores"
+msgstr "نام شناسایی فقط می‌تواند شامل حروف انگلیسی کوچک، اعداد، خط تیره و زیرخط باشد"
+
+msgid "Please fill all required fields"
+msgstr "لطفاً تمام فیلدهای الزامی را پر کنید"
+
+msgid "Are you sure? This operation may take several minutes."
+msgstr "آیا مطمئن هستید؟ این عملیات ممکن است چند دقیقه طول بکشد."
+
+msgid "WooCommerce separation completed successfully! You can now go to the migration section."
+msgstr "جداسازی ووکامرس با موفقیت انجام شد! اکنون می‌توانید به قسمت انتقال داده‌ها بروید."
+
+msgid "Copied!"
+msgstr "کپی شد!"
+
+msgid "Success"
+msgstr "موفق"
+
+msgid "Failed"
+msgstr "ناموفق"
+
+msgid "Processing..."
+msgstr "در حال پردازش..."
+
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+msgid "Please wait..."
+msgstr "لطفاً صبر کنید..."
